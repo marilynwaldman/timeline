@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppNavbarComponent } from './app-navbar.component';
+import { D3forceComponent } from './d3force.component';
 
-describe('AppNavbarComponent', () => {
-  let component: AppNavbarComponent;
-  let fixture: ComponentFixture<AppNavbarComponent>;
+describe('D3forceComponent', () => {
+  let component: D3forceComponent;
+  let fixture: ComponentFixture<D3forceComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppNavbarComponent ]
+      declarations: [ D3forceComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AppNavbarComponent);
+    fixture = TestBed.createComponent(D3forceComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

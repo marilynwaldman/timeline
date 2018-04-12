@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component'
 import { EmailsComponent } from './emails/emails.component';
+import { D3forceComponent } from './d3force/d3force.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 const appRoutes: Routes = [
@@ -13,6 +14,7 @@ const appRoutes: Routes = [
       {path: '', component: NavbarComponent, children: [
           {path: 'dashboard', component: DashboardComponent},
           {path: 'emails', component: EmailsComponent},
+          {path: 'd3force', component: D3forceComponent},
         
       ]}
   ]},
