@@ -18,6 +18,7 @@ import { SHARED_VISUALS } from './d3force/visuals/shared';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,7 @@ import { SHARED_VISUALS } from './d3force/visuals/shared';
     GraphComponent,
     ...SHARED_VISUALS,
     ...D3_DIRECTIVES,
+    
   ],
   imports: [
     BrowserModule,
